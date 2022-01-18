@@ -21,7 +21,6 @@ body {
 
 .main-container {
     background-color: var(--current-line);
-    width: 90vw;
     /* height: 100vh; */
     margin-left: auto;
     margin-right: auto;
@@ -35,6 +34,7 @@ body {
     padding: 15px;
     border: 1px solid var(--green);
     border-radius: 5px;
+    max-width: 1250px;
 }
 
 .mono {
@@ -47,6 +47,7 @@ body {
     background-color: var(--current-line);
     font-size: 100%;
     border: 1px solid black;
+    max-width: 1250px;
 }
 
 .content-box {
@@ -56,6 +57,7 @@ body {
     margin-left: auto;
     padding: 15px;
     margin-bottom: 5%;
+    max-width: 1250px;
 }
 
 .item {
@@ -77,11 +79,14 @@ input {
     text-align: center;
     background-color: var(--current-line);
     color: var(--white);
+    /* max-width: 1250px; */
 }
 
 #form-div {
-    width: 100%;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    max-width: 1250px;
 }
