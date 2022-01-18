@@ -34,6 +34,7 @@ body {
     /* justify-content: flex-end; */
     padding: 15px;
     border: 1px solid var(--green);
+    border-radius: 5px;
 }
 
 .mono {
@@ -74,6 +75,8 @@ input {
     width: 90vw;
     margin: 0 auto;
     text-align: center;
+    background-color: var(--current-line);
+    color: var(--white);
 }
 
 #form-div {
